@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
-To set up DZinestore on your local machine, follow these steps:
+To set up Google Clone on your local machine, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/aloksagar11/googleclone.git`
 2. Navigate to the project directory: `cd googleclone`
