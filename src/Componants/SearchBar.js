@@ -3,18 +3,20 @@ import { styled } from 'styled-components'
 import SearchIcon from '@mui/icons-material/Search';
 import MicIcon from '@mui/icons-material/Mic';
 import { Button } from '@mui/material';
+import { useMyContext } from './ContextAPI';
 
 const SearchBar = ({hidebutton}) => {
 
     const [input,setInput]= useState("")
-
+    const {setKeyword}= useMyContext();
     const search=(e)=>{
         e.preventDefault();
-        alert(input);
+        setKeyword(input);
+        console.log(input)
     }
     return (
         <Wrapper>
-            <form action="" className='search'>
+            <form action={"/search"}className='search'>
                 <div className="search_box">
                     <SearchIcon className='icon'/>
                     <input type="text" className='inputbox' onChange={(e)=>{setInput(e.target.value)}}/>

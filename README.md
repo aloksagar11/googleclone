@@ -2,17 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Live preview of project : https://searchongoogle.netlify.app
-
-## Installation
-
-To set up Google Clone on your local machine, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/aloksagar11/googleclone.git`
-2. Navigate to the project directory: `cd googleclone`
-3. Install the dependencies: `npm install`
-
-
 ## Available Scripts
 
 In the project directory, you can run:
