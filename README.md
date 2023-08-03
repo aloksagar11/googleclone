@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Live preview of project : https://searchongoogle.netlify.app
+## Live preview of project : https://searchongoogle.netlify.app
 
 ## Available Scripts
 
